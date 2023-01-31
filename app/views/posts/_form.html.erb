@@ -10,12 +10,11 @@
       </ul>
     </div>
   <% end %>
-
   <div class="post_content">
-    <%= form.label :content %>
+    <br><%= form.label :content %></br>
     <%= form.text_field :content %>
   </div>
   <%= form.submit %>
 <% end %>
-
-<%= link_to "一覧画面にもどる", blogs_path %>
+<br></br>
+<%= link_to "一覧画面にもどる", posts_path %>
