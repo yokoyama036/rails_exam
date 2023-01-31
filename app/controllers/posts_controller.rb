@@ -35,7 +35,6 @@ class PostsController < ApplicationController
       redirect_to posts_path, notice: "編集しました！"
     else
       render :edit
-      render :new if @post.invalid?
     end
   end
 
